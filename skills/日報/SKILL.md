@@ -15,7 +15,7 @@ argument-hint: ""
 - 直近の日報ファイル（`${VAULT_PATH}/日報/` 内で最新のもの）— 目標の最新状態を把握するため
 - **Google Calendar から今日と明日の予定を取得**（`mcp__google-calendar__list-events` を使用）
   - アカウント: `YOUR_ACCOUNT`
-  - カレンダーID: `["your-email@example.com", "YOUR_IMPORTED_社内LENDAR_ID@import.calendar.google.com", "YOUR_FAMILY_社内LENDAR_ID@group.calendar.google.com"]`
+  - カレンダーID: `["your-email@example.com", "YOUR_IMPORTED_CALENDAR_ID@import.calendar.google.com", "YOUR_FAMILY_CALENDAR_ID@group.calendar.google.com"]`
   - **今日分:** 範囲: 今日の 00:00〜23:59（タイムゾーン: Asia/Tokyo）→ 「今日のスケジュール」としてステップ1で提示
   - **明日分:** 範囲: 明日の 00:00〜23:59（タイムゾーン: Asia/Tokyo）→ 「明日の予定」としてステップ1の最後に提示し、準備が必要なものを確認
 
@@ -64,7 +64,7 @@ YOUR_DEPARTMENT の YOUR_ROLE です！
 =============================
 **profile:**
 名前: YOUR_NAME(YOUR_NICKNAME)
-出身: YOUR_LO社内TION
+出身: YOUR_LOCATION
 大学: YOUR_UNIVERSITY（YOUR_MAJOR）
 一言:  **中学からプログラミング**をしてきました！！**「技術を自分の武器として会社の武器にもしていく！」**をモットーにBiz職でブンブン改革していきます！！
 

@@ -18,7 +18,7 @@ await deck.save('${VAULT_PATH}/スライド/LT・発表/output.pptx');
 | `quest` | Quest Proposal | 提案資料 | ティール + ゴールド |
 | `green` | 社内勉強会 | LT・勉強会 | ダークグリーン + ライム |
 | `internal` | 社内テンプレート | 社内発表 | グレー + ブルー |
-| `corporate` | 社内DX Proposal | DX提案 | ティール + ゴールド |
+| `corporate` | Corporate Proposal | DX提案 | ティール + ゴールド |
 
 ## タイトルスライドの引数
 
