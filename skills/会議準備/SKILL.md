@@ -17,7 +17,7 @@ argument-hint: "[会議名]"
 - `${VAULT_PATH}/自分について.md` — プロジェクト・関係者情報
 - **Google Calendar から今日の予定を取得**（`mcp__google-calendar__list-events` を使用）
   - アカウント: `YOUR_ACCOUNT`
-  - カレンダーID: `["your-email@example.com", "YOUR_IMPORTED_CALENDAR_ID@import.calendar.google.com", "YOUR_FAMILY_CALENDAR_ID@group.calendar.google.com"]`
+  - カレンダーID: `["your-email@example.com", "YOUR_IMPORTED_社内LENDAR_ID@import.calendar.google.com", "YOUR_FAMILY_社内LENDAR_ID@group.calendar.google.com"]`
   - 範囲: 今日の 00:00〜23:59（タイムゾーン: Asia/Tokyo）
 
 ---
