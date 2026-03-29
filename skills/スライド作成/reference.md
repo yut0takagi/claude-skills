@@ -5,7 +5,7 @@
 ```javascript
 import { createDeck, draw, layout } from '${VAULT_PATH}/.claude/slide-assets/index.mjs';
 
-const deck = createDeck('ca-green', 'LT資料');  // テーマID + タイトル
+const deck = createDeck('green', 'LT資料');  // テーマID + タイトル
 deck.addTitleSlide({ event: 'イベント名', title: 'タイトル', author: '著者' });
 deck.addBulletSlide('見出し', '', ['項目1', '項目2']);
 await deck.save('${VAULT_PATH}/スライド/LT・発表/output.pptx');
@@ -16,18 +16,18 @@ await deck.save('${VAULT_PATH}/スライド/LT・発表/output.pptx');
 | ID | 名前 | 用途 | カラー |
 |---|---|---|---|
 | `quest` | Quest Proposal | 提案資料 | ティール + ゴールド |
-| `ca-green` | CA Data Night | LT・勉強会 | ダークグリーン + ライム |
-| `ca-internal` | CA Internal | 社内発表 | グレー + ブルー |
+| `green` | 社内勉強会 | LT・勉強会 | ダークグリーン + ライム |
+| `internal` | 社内テンプレート | 社内発表 | グレー + ブルー |
 | `corporate` | Corporate Proposal | DX提案 | ティール + ゴールド |
 
 ## タイトルスライドの引数
 
-**LT系 (ca-green):**
+**LT系 (green):**
 ```javascript
 deck.addTitleSlide({ event: 'CA DATA NIGHT #7', title: 'タイトル', author: '名前' });
 ```
 
-**LT系 (ca-internal):**
+**LT系 (internal):**
 ```javascript
 deck.addTitleSlide({ number: '第1回', title: 'タイトル', subtitle: '〜サブ〜', department: '部署', author: '名前' });
 ```

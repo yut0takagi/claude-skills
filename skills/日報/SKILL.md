@@ -63,7 +63,7 @@ YOUR_DEPARTMENT の YOUR_ROLE です！
 
 =============================
 **profile:**
-名前: YOUR_NAME(たか)
+名前: YOUR_NAME(YOUR_NICKNAME)
 出身: YOUR_LOCATION
 大学: YOUR_UNIVERSITY（YOUR_MAJOR）
 一言:  **中学からプログラミング**をしてきました！！**「技術を自分の武器として会社の武器にもしていく！」**をモットーにBiz職でブンブン改革していきます！！

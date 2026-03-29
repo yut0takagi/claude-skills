@@ -41,8 +41,8 @@ argument-hint: "[テーマ or 参照ファイル]"
 【デザインテーマを選んでください】
 
 1. quest（デフォルト） — プロフェッショナルな提案資料向け（ティール+ゴールド）
-2. ca-green（LT・勉強会向け） — 社内勉強会 スタイル（グリーン+ライム）
-3. ca-internal（朝会・勉強会向け） — 社内テンプレート準拠（グレー+ブルー）
+2. green（LT・勉強会向け） — 社内勉強会 スタイル（グリーン+ライム）
+3. internal（朝会・勉強会向け） — 社内テンプレート準拠（グレー+ブルー）
 4. corporate（リテールメディア提案向け） — 社内提案FMT（ティール+ゴールド）
 
 （番号またはテーマ名で回答。省略時は1）
@@ -114,7 +114,7 @@ LT・勉強会系は上記に縛られず、自由な構成でOK。
 
 ```javascript
 import { createDeck, draw, layout } from '${VAULT_PATH}/.claude/slide-assets/index.mjs';
-const deck = createDeck('ca-green', 'タイトル');  // テーマIDを指定
+const deck = createDeck('green', 'タイトル');  // テーマIDを指定
 ```
 
 ### デザインルール（厳守）
