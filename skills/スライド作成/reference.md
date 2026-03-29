@@ -18,7 +18,7 @@ await deck.save('${VAULT_PATH}/スライド/LT・発表/output.pptx');
 | `quest` | Quest Proposal | 提案資料 | ティール + ゴールド |
 | `ca-green` | CA Data Night | LT・勉強会 | ダークグリーン + ライム |
 | `ca-internal` | CA Internal | 社内発表 | グレー + ブルー |
-| `cadx` | CADX Proposal | DX提案 | ティール + ゴールド |
+| `corporate` | Corporate Proposal | DX提案 | ティール + ゴールド |
 
 ## タイトルスライドの引数
 
@@ -32,7 +32,7 @@ deck.addTitleSlide({ event: 'CA DATA NIGHT #7', title: 'タイトル', author: '
 deck.addTitleSlide({ number: '第1回', title: 'タイトル', subtitle: '〜サブ〜', department: '部署', author: '名前' });
 ```
 
-**提案系 (quest, cadx):**
+**提案系 (quest, corporate):**
 ```javascript
 deck.addTitleSlide({ clientName: 'XX株式会社 御中', title: 'ご提案資料', dateStr: '2026/03/29' });
 ```
