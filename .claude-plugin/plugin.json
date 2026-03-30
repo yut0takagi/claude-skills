@@ -1,0 +1,8 @@
+{
+  "name": "claude-skills",
+  "description": "日報・議事録・リサーチ・スライド作成など日常業務を自動化するClaude Codeスキル集",
+  "version": "1.0.0",
+  "author": {
+    "name": "yut0takagi"
+  }
+}
